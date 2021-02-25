@@ -204,7 +204,17 @@ void runSolution() {
 Future printOutput(String outputFilePath) async {
   final outputSink = File(outputFilePath).openWrite();
 
-  await outputSink.writeln(intersections.length);
+  var nIntersection = 0;
+
+  for (final intersection in intersections.values) {
+    final length = intersection.incommingStreets.length;
+
+    if (length > 0) {
+      nIntersection++;
+    }
+  }
+
+  await outputSink.writeln(nIntersection);
 
   for (final intersection in intersections.values) {
     final length = intersection.incommingStreets.length;
