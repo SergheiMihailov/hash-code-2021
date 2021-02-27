@@ -136,7 +136,7 @@ class Intersection {
 
     IncomingStreet currentIncomingStreet;
 
-    for (var incomingStreet in incomingStreets) {
+    for (final incomingStreet in incomingStreets) {
       currentIncomingStreet = incomingStreet;
 
       internalRemainder -= incomingStreet.greenDuration;
@@ -186,15 +186,9 @@ class Simulation {
 
   /// Runs the [Simulation].
   void run() {
-    // final stopwatch = Stopwatch()..start();
-
     for (var i = 1; i < duration + 1; i++) {
       processTick(i);
     }
-
-    // print(
-    //   '⏰ Simulation #$id\n   └> took: ${stopwatch.elapsed}\n   └> score $score\n   └> fitness $fitness',
-    // );
   }
 
   void processTick(int timeElapsed) {
@@ -222,7 +216,7 @@ class Simulation {
       }
 
       // reward the simulation for each car the passes a traffic light
-      fitness += 10;
+      fitness += (baseCarScore / 100).round();
 
       final carOnIntersection = streetWithGreenLight.consumeQueuedCar();
 
@@ -328,39 +322,43 @@ class Generation {
   void runSimulations() async {
     final stopwatch = Stopwatch()..start();
 
-    // run the calculations in parallel
-    await Future.wait(population.values.map((simulation) async {
-      final completer = Completer();
-      final receivePort = ReceivePort();
+    final parallelChunks = chunks(population.values.toList(), 16);
 
-      receivePort.listen((message) {
-        if (message is Simulation) {
-          population[message.id] = message;
+    for (final parallelChunk in parallelChunks) {
+      // run the calculations in parallel
+      await Future.wait(parallelChunk.map((simulation) async {
+        final completer = Completer();
+        final receivePort = ReceivePort();
 
-          if (message.score >= (bestSimulation?.score ?? 0)) {
-            bestSimulation = message;
+        receivePort.listen((message) {
+          if (message is Simulation) {
+            population[message.id] = message;
+
+            if (message.score >= (bestSimulation?.score ?? 0)) {
+              bestSimulation = message;
+            }
+
+            if (message.fitness >= (fittestSimulation?.fitness ?? 0)) {
+              fittestSimulation = message;
+            }
+
+            receivePort.close();
+
+            completer.complete();
           }
+        });
 
-          if (message.fitness >= (fittestSimulation?.fitness ?? 0)) {
-            fittestSimulation = message;
-          }
+        await Isolate.spawn(
+          runSimulationIsolate,
+          [
+            receivePort.sendPort,
+            simulation,
+          ],
+        );
 
-          receivePort.close();
-
-          completer.complete();
-        }
-      });
-
-      await Isolate.spawn(
-        runSimulationIsolate,
-        [
-          receivePort.sendPort,
-          simulation,
-        ],
-      );
-
-      await completer.future;
-    }));
+        await completer.future;
+      }));
+    }
 
     print('🕹 GEN $id simulation\n   └> took: ${stopwatch.elapsed}');
 
@@ -403,8 +401,8 @@ class Generation {
   }
 
   void _produceBreedingPool() {
-    for (var simulation in population.values) {
-      var maxScore =
+    for (final simulation in population.values) {
+      final maxScore =
           (simulation.baseCarScore + simulation.duration) * simulation.nCars;
 
       var reproductionChanceRatio = simulation.fitness / maxScore;
@@ -417,10 +415,6 @@ class Generation {
 
       final reproductionChance =
           (reproductionChanceRatio * 1000 * 1000).round();
-
-      // print(
-      //   '💦 Simulation GEN ${simulation.id}\n   └> max score $maxScore\n   └> fitness ${simulation.fitness}\n   └> reproduction chance: $reproductionChance',
-      // );
 
       for (var i = 0; i <= reproductionChance; i++) {
         breedingPool.add(simulation.id);
@@ -515,8 +509,21 @@ Future main(List<String> arguments) async {
   final inputFilePath = arguments[0];
   final outputFilePath = arguments[1];
 
+  // settings
+  final nGenerations = 128;
+
+  final baseGeneration = Generation(
+    id: 0,
+    populationSize: 64,
+    mutationRatio: 0.1, // 10%
+  );
+
   final baseSimulation = Simulation(
     id: 0,
+  );
+
+  print(
+    '🎛 Settings\n   └> number of generations: $nGenerations\n   └> population size: ${baseGeneration.populationSize}\n   └> mutation ratio: ${baseGeneration.mutationRatio * 100}%',
   );
 
   await parseInput(
@@ -524,27 +531,15 @@ Future main(List<String> arguments) async {
     inputFilePath,
   );
 
-  final baseGeneration = Generation(
-    id: 0,
-    populationSize: 64,
-    mutationRatio: 0.05, // 5%
-  );
-
-  print(
-    '🎛 Settings\n   └> population size: ${baseGeneration.populationSize}\n   └> mutation ratio: ${baseGeneration.mutationRatio * 100}%',
-  );
-
-  final stopwatch = Stopwatch()..start();
-
   baseGeneration.initializeRandomly(baseSimulation);
 
-  print('⛓ Setup took ${stopwatch.elapsed}');
+  final stopwatch = Stopwatch()..start();
 
   var bestSimulation = baseSimulation;
   var currentGeneration = baseGeneration;
 
   // number of generations
-  for (var i = 0; i < 128; i++) {
+  for (var i = 0; i < nGenerations; i++) {
     await currentGeneration.runSimulations();
 
     print(
@@ -583,6 +578,16 @@ void runSimulationIsolate(List<dynamic> arguments) {
   simulation.run();
 
   sendPort.send(simulation);
+}
+
+Iterable<List<T>> chunks<T>(List<T> lst, int n) sync* {
+  final gen = List.generate(lst.length ~/ n + 1, (e) => e * n);
+
+  for (final i in gen) {
+    if (i < lst.length) {
+      yield lst.sublist(i, i + n < lst.length ? i + n : lst.length);
+    }
+  }
 }
 
 Future parseInput(
@@ -660,7 +665,13 @@ Future printOutput(
   var nIntersection = 0;
 
   for (final intersection in simulation.intersections.values) {
-    final length = intersection.incomingStreets.length;
+    final length = intersection.incomingStreets.fold(0, (sum, incomingStreet) {
+      if (incomingStreet.greenDuration > 0) {
+        return sum + 1;
+      }
+
+      return sum;
+    });
 
     if (length > 0) {
       nIntersection++;
@@ -670,17 +681,25 @@ Future printOutput(
   await outputSink.writeln(nIntersection);
 
   for (final intersection in simulation.intersections.values) {
-    final length = intersection.incomingStreets.length;
+    final length = intersection.incomingStreets.fold(0, (sum, incomingStreet) {
+      if (incomingStreet.greenDuration > 0) {
+        return sum + 1;
+      }
+
+      return sum;
+    });
 
     if (length > 0) {
       await outputSink.writeln(intersection.id);
       await outputSink.writeln(length);
 
-      for (var i = 0; i < length; i++) {
-        final name = intersection.incomingStreets[i].name;
-        final duration = intersection.incomingStreets[i].greenDuration;
+      for (final incomingStreet in intersection.incomingStreets) {
+        final name = incomingStreet.name;
+        final duration = incomingStreet.greenDuration;
 
-        await outputSink.writeln('$name $duration');
+        if (duration > 0) {
+          await outputSink.writeln('$name $duration');
+        }
       }
     }
   }

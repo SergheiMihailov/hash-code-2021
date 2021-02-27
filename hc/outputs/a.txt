@@ -3,12 +3,11 @@
 1
 rue-de-londres 2
 1
-2
-rue-d-amsterdam 0
-rue-d-athenes 5
+1
+rue-d-athenes 4
 3
 1
-rue-de-rome 3
+rue-de-rome 5
 2
 1
-rue-de-moscou 4
+rue-de-moscou 3

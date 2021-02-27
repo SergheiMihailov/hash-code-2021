@@ -1,780 +1,780 @@
-📄 Parsing input
-   └> took: 0:00:00.000993
 🎛 Settings
-   └> population size: 32
-   └> mutation ratio: 5.0%
-⛓ Setup took 0:00:00.000147
+   └> number of generations: 128
+   └> population size: 64
+   └> mutation ratio: 10.0%
+📄 Parsing input
+   └> took: 0:00:00.000920
 🕹 GEN 0 simulation
-   └> took: 0:00:00.015317
+   └> took: 0:00:00.023098
 🏁 GEN 0 finished
    └> score: 1001
 🎉 NEW! High-score: 1001
 👣 GEN 1 breeding
-   └> took: 0:00:00.053548
+   └> took: 0:00:00.086724
 🕹 GEN 1 simulation
-   └> took: 0:00:00.013655
+   └> took: 0:00:00.023286
 🏁 GEN 1 finished
    └> score: 1001
 👣 GEN 2 breeding
-   └> took: 0:00:00.124519
+   └> took: 0:00:00.226807
 🕹 GEN 2 simulation
-   └> took: 0:00:00.013504
+   └> took: 0:00:00.021962
 🏁 GEN 2 finished
    └> score: 1001
 👣 GEN 3 breeding
-   └> took: 0:00:00.130345
+   └> took: 0:00:00.412396
 🕹 GEN 3 simulation
-   └> took: 0:00:00.012619
+   └> took: 0:00:00.023635
 🏁 GEN 3 finished
    └> score: 1001
 👣 GEN 4 breeding
-   └> took: 0:00:00.141488
+   └> took: 0:00:00.494964
 🕹 GEN 4 simulation
-   └> took: 0:00:00.012024
+   └> took: 0:00:00.021446
 🏁 GEN 4 finished
    └> score: 1001
 👣 GEN 5 breeding
-   └> took: 0:00:00.249002
+   └> took: 0:00:00.456464
 🕹 GEN 5 simulation
-   └> took: 0:00:00.012530
+   └> took: 0:00:00.024032
 🏁 GEN 5 finished
    └> score: 1001
 👣 GEN 6 breeding
-   └> took: 0:00:00.223089
+   └> took: 0:00:00.259812
 🕹 GEN 6 simulation
-   └> took: 0:00:00.015142
+   └> took: 0:00:00.019858
 🏁 GEN 6 finished
    └> score: 1001
 👣 GEN 7 breeding
-   └> took: 0:00:00.222548
+   └> took: 0:00:00.421445
 🕹 GEN 7 simulation
-   └> took: 0:00:00.013297
+   └> took: 0:00:00.021087
 🏁 GEN 7 finished
    └> score: 1001
 👣 GEN 8 breeding
-   └> took: 0:00:00.238885
+   └> took: 0:00:00.463092
 🕹 GEN 8 simulation
-   └> took: 0:00:00.013478
+   └> took: 0:00:00.021872
 🏁 GEN 8 finished
    └> score: 1001
 👣 GEN 9 breeding
-   └> took: 0:00:00.125197
+   └> took: 0:00:00.451389
 🕹 GEN 9 simulation
-   └> took: 0:00:00.013195
+   └> took: 0:00:00.021594
 🏁 GEN 9 finished
    └> score: 1001
 👣 GEN 10 breeding
-   └> took: 0:00:00.231581
+   └> took: 0:00:00.458882
 🕹 GEN 10 simulation
-   └> took: 0:00:00.013003
+   └> took: 0:00:00.022613
 🏁 GEN 10 finished
    └> score: 1001
 👣 GEN 11 breeding
-   └> took: 0:00:00.221856
+   └> took: 0:00:00.261285
 🕹 GEN 11 simulation
-   └> took: 0:00:00.012488
+   └> took: 0:00:00.022000
 🏁 GEN 11 finished
    └> score: 1001
 👣 GEN 12 breeding
-   └> took: 0:00:00.225652
+   └> took: 0:00:00.419808
 🕹 GEN 12 simulation
-   └> took: 0:00:00.013131
+   └> took: 0:00:00.021475
 🏁 GEN 12 finished
    └> score: 1001
 👣 GEN 13 breeding
-   └> took: 0:00:00.226091
+   └> took: 0:00:00.454576
 🕹 GEN 13 simulation
-   └> took: 0:00:00.013293
+   └> took: 0:00:00.020658
 🏁 GEN 13 finished
    └> score: 1001
 👣 GEN 14 breeding
-   └> took: 0:00:00.227026
+   └> took: 0:00:00.445778
 🕹 GEN 14 simulation
-   └> took: 0:00:00.012769
+   └> took: 0:00:00.020675
 🏁 GEN 14 finished
    └> score: 1001
 👣 GEN 15 breeding
-   └> took: 0:00:00.227702
+   └> took: 0:00:00.262756
 🕹 GEN 15 simulation
-   └> took: 0:00:00.012324
+   └> took: 0:00:00.022412
 🏁 GEN 15 finished
    └> score: 1001
 👣 GEN 16 breeding
-   └> took: 0:00:00.235426
+   └> took: 0:00:00.406844
 🕹 GEN 16 simulation
-   └> took: 0:00:00.011324
+   └> took: 0:00:00.020231
 🏁 GEN 16 finished
    └> score: 1001
 👣 GEN 17 breeding
-   └> took: 0:00:00.117471
+   └> took: 0:00:00.491539
 🕹 GEN 17 simulation
-   └> took: 0:00:00.012337
+   └> took: 0:00:00.020380
 🏁 GEN 17 finished
    └> score: 1001
 👣 GEN 18 breeding
-   └> took: 0:00:00.223933
+   └> took: 0:00:00.437037
 🕹 GEN 18 simulation
-   └> took: 0:00:00.012352
+   └> took: 0:00:00.021847
 🏁 GEN 18 finished
    └> score: 1001
 👣 GEN 19 breeding
-   └> took: 0:00:00.226907
+   └> took: 0:00:00.253826
 🕹 GEN 19 simulation
-   └> took: 0:00:00.013532
+   └> took: 0:00:00.021797
 🏁 GEN 19 finished
    └> score: 1001
 👣 GEN 20 breeding
-   └> took: 0:00:00.215753
+   └> took: 0:00:00.409920
 🕹 GEN 20 simulation
-   └> took: 0:00:00.012831
+   └> took: 0:00:00.021326
 🏁 GEN 20 finished
    └> score: 1001
 👣 GEN 21 breeding
-   └> took: 0:00:00.119681
+   └> took: 0:00:00.443228
 🕹 GEN 21 simulation
-   └> took: 0:00:00.013460
+   └> took: 0:00:00.021392
 🏁 GEN 21 finished
    └> score: 1001
 👣 GEN 22 breeding
-   └> took: 0:00:00.239358
+   └> took: 0:00:00.261817
 🕹 GEN 22 simulation
-   └> took: 0:00:00.012901
+   └> took: 0:00:00.022511
 🏁 GEN 22 finished
    └> score: 1001
 👣 GEN 23 breeding
-   └> took: 0:00:00.240223
+   └> took: 0:00:00.431154
 🕹 GEN 23 simulation
-   └> took: 0:00:00.011651
+   └> took: 0:00:00.020717
 🏁 GEN 23 finished
    └> score: 1001
 👣 GEN 24 breeding
-   └> took: 0:00:00.122163
+   └> took: 0:00:00.492694
 🕹 GEN 24 simulation
-   └> took: 0:00:00.011711
+   └> took: 0:00:00.023039
 🏁 GEN 24 finished
    └> score: 1001
 👣 GEN 25 breeding
-   └> took: 0:00:00.211118
+   └> took: 0:00:00.432108
 🕹 GEN 25 simulation
-   └> took: 0:00:00.013224
+   └> took: 0:00:00.020508
 🏁 GEN 25 finished
    └> score: 1001
 👣 GEN 26 breeding
-   └> took: 0:00:00.214452
+   └> took: 0:00:00.464447
 🕹 GEN 26 simulation
-   └> took: 0:00:00.012291
+   └> took: 0:00:00.021708
 🏁 GEN 26 finished
    └> score: 1001
 👣 GEN 27 breeding
-   └> took: 0:00:00.219103
+   └> took: 0:00:00.483324
 🕹 GEN 27 simulation
-   └> took: 0:00:00.011755
+   └> took: 0:00:00.024085
 🏁 GEN 27 finished
    └> score: 1001
 👣 GEN 28 breeding
-   └> took: 0:00:00.216104
+   └> took: 0:00:00.440149
 🕹 GEN 28 simulation
-   └> took: 0:00:00.011706
+   └> took: 0:00:00.024484
 🏁 GEN 28 finished
    └> score: 1001
 👣 GEN 29 breeding
-   └> took: 0:00:00.226800
+   └> took: 0:00:00.449003
 🕹 GEN 29 simulation
-   └> took: 0:00:00.011523
+   └> took: 0:00:00.023356
 🏁 GEN 29 finished
    └> score: 1001
 👣 GEN 30 breeding
-   └> took: 0:00:00.218159
+   └> took: 0:00:00.458079
 🕹 GEN 30 simulation
-   └> took: 0:00:00.012176
+   └> took: 0:00:00.024857
 🏁 GEN 30 finished
    └> score: 1001
 👣 GEN 31 breeding
-   └> took: 0:00:00.222793
+   └> took: 0:00:00.271175
 🕹 GEN 31 simulation
-   └> took: 0:00:00.012263
+   └> took: 0:00:00.023255
 🏁 GEN 31 finished
    └> score: 1001
 👣 GEN 32 breeding
-   └> took: 0:00:00.219789
+   └> took: 0:00:00.237934
 🕹 GEN 32 simulation
-   └> took: 0:00:00.011265
+   └> took: 0:00:00.022517
 🏁 GEN 32 finished
    └> score: 1001
 👣 GEN 33 breeding
-   └> took: 0:00:00.205209
+   └> took: 0:00:00.419242
 🕹 GEN 33 simulation
-   └> took: 0:00:00.011772
+   └> took: 0:00:00.025126
 🏁 GEN 33 finished
    └> score: 1001
 👣 GEN 34 breeding
-   └> took: 0:00:00.213609
+   └> took: 0:00:00.437672
 🕹 GEN 34 simulation
-   └> took: 0:00:00.011535
+   └> took: 0:00:00.021571
 🏁 GEN 34 finished
    └> score: 1001
 👣 GEN 35 breeding
-   └> took: 0:00:00.213033
+   └> took: 0:00:00.447486
 🕹 GEN 35 simulation
-   └> took: 0:00:00.012282
+   └> took: 0:00:00.021764
 🏁 GEN 35 finished
    └> score: 1001
 👣 GEN 36 breeding
-   └> took: 0:00:00.222787
+   └> took: 0:00:00.459494
 🕹 GEN 36 simulation
-   └> took: 0:00:00.012221
+   └> took: 0:00:00.023700
 🏁 GEN 36 finished
    └> score: 1001
 👣 GEN 37 breeding
-   └> took: 0:00:00.226865
+   └> took: 0:00:00.443768
 🕹 GEN 37 simulation
-   └> took: 0:00:00.011685
+   └> took: 0:00:00.020458
 🏁 GEN 37 finished
    └> score: 1001
 👣 GEN 38 breeding
-   └> took: 0:00:00.200357
+   └> took: 0:00:00.260359
 🕹 GEN 38 simulation
-   └> took: 0:00:00.012001
+   └> took: 0:00:00.022010
 🏁 GEN 38 finished
    └> score: 1001
 👣 GEN 39 breeding
-   └> took: 0:00:00.121586
+   └> took: 0:00:00.423442
 🕹 GEN 39 simulation
-   └> took: 0:00:00.011610
+   └> took: 0:00:00.020712
 🏁 GEN 39 finished
    └> score: 1001
 👣 GEN 40 breeding
-   └> took: 0:00:00.214081
+   └> took: 0:00:00.508379
 🕹 GEN 40 simulation
-   └> took: 0:00:00.012221
+   └> took: 0:00:00.021772
 🏁 GEN 40 finished
    └> score: 1001
 👣 GEN 41 breeding
-   └> took: 0:00:00.219617
+   └> took: 0:00:00.465840
 🕹 GEN 41 simulation
-   └> took: 0:00:00.012634
+   └> took: 0:00:00.022007
 🏁 GEN 41 finished
    └> score: 1001
 👣 GEN 42 breeding
-   └> took: 0:00:00.208449
+   └> took: 0:00:00.436812
 🕹 GEN 42 simulation
-   └> took: 0:00:00.011643
+   └> took: 0:00:00.021413
 🏁 GEN 42 finished
    └> score: 1001
 👣 GEN 43 breeding
-   └> took: 0:00:00.204541
+   └> took: 0:00:00.258735
 🕹 GEN 43 simulation
-   └> took: 0:00:00.011776
+   └> took: 0:00:00.022908
 🏁 GEN 43 finished
    └> score: 1001
 👣 GEN 44 breeding
-   └> took: 0:00:00.229090
+   └> took: 0:00:00.435360
 🕹 GEN 44 simulation
-   └> took: 0:00:00.012424
+   └> took: 0:00:00.022526
 🏁 GEN 44 finished
    └> score: 1001
 👣 GEN 45 breeding
-   └> took: 0:00:00.216222
+   └> took: 0:00:00.477548
 🕹 GEN 45 simulation
-   └> took: 0:00:00.012162
+   └> took: 0:00:00.021175
 🏁 GEN 45 finished
    └> score: 1001
 👣 GEN 46 breeding
-   └> took: 0:00:00.215173
+   └> took: 0:00:00.450474
 🕹 GEN 46 simulation
-   └> took: 0:00:00.012394
+   └> took: 0:00:00.021813
 🏁 GEN 46 finished
    └> score: 1001
 👣 GEN 47 breeding
-   └> took: 0:00:00.226439
+   └> took: 0:00:00.269012
 🕹 GEN 47 simulation
-   └> took: 0:00:00.011792
+   └> took: 0:00:00.021966
 🏁 GEN 47 finished
    └> score: 1001
 👣 GEN 48 breeding
-   └> took: 0:00:00.211865
+   └> took: 0:00:00.418964
 🕹 GEN 48 simulation
-   └> took: 0:00:00.011377
+   └> took: 0:00:00.020004
 🏁 GEN 48 finished
    └> score: 1001
 👣 GEN 49 breeding
-   └> took: 0:00:00.216847
+   └> took: 0:00:00.280806
 🕹 GEN 49 simulation
-   └> took: 0:00:00.011460
+   └> took: 0:00:00.019651
 🏁 GEN 49 finished
    └> score: 1001
 👣 GEN 50 breeding
-   └> took: 0:00:00.218734
+   └> took: 0:00:00.419808
 🕹 GEN 50 simulation
-   └> took: 0:00:00.011706
+   └> took: 0:00:00.020625
 🏁 GEN 50 finished
    └> score: 1001
 👣 GEN 51 breeding
-   └> took: 0:00:00.207976
+   └> took: 0:00:00.448905
 🕹 GEN 51 simulation
-   └> took: 0:00:00.011745
+   └> took: 0:00:00.020256
 🏁 GEN 51 finished
    └> score: 1001
 👣 GEN 52 breeding
-   └> took: 0:00:00.218152
+   └> took: 0:00:00.448752
 🕹 GEN 52 simulation
-   └> took: 0:00:00.012080
+   └> took: 0:00:00.021092
 🏁 GEN 52 finished
    └> score: 1001
 👣 GEN 53 breeding
-   └> took: 0:00:00.211183
+   └> took: 0:00:00.456146
 🕹 GEN 53 simulation
-   └> took: 0:00:00.012078
+   └> took: 0:00:00.020941
 🏁 GEN 53 finished
    └> score: 1001
 👣 GEN 54 breeding
-   └> took: 0:00:00.198969
+   └> took: 0:00:00.267296
 🕹 GEN 54 simulation
-   └> took: 0:00:00.011374
+   └> took: 0:00:00.024406
 🏁 GEN 54 finished
    └> score: 1001
 👣 GEN 55 breeding
-   └> took: 0:00:00.109585
+   └> took: 0:00:00.413746
 🕹 GEN 55 simulation
-   └> took: 0:00:00.011314
+   └> took: 0:00:00.020949
 🏁 GEN 55 finished
    └> score: 1001
 👣 GEN 56 breeding
-   └> took: 0:00:00.135857
+   └> took: 0:00:00.263296
 🕹 GEN 56 simulation
-   └> took: 0:00:00.011758
+   └> took: 0:00:00.023841
 🏁 GEN 56 finished
    └> score: 1001
 👣 GEN 57 breeding
-   └> took: 0:00:00.226158
+   └> took: 0:00:00.405718
 🕹 GEN 57 simulation
-   └> took: 0:00:00.011351
+   └> took: 0:00:00.021280
 🏁 GEN 57 finished
    └> score: 1001
 👣 GEN 58 breeding
-   └> took: 0:00:00.218329
+   └> took: 0:00:00.460922
 🕹 GEN 58 simulation
-   └> took: 0:00:00.012003
+   └> took: 0:00:00.021027
 🏁 GEN 58 finished
    └> score: 1001
 👣 GEN 59 breeding
-   └> took: 0:00:00.204607
+   └> took: 0:00:00.444890
 🕹 GEN 59 simulation
-   └> took: 0:00:00.010931
+   └> took: 0:00:00.020551
 🏁 GEN 59 finished
    └> score: 1001
 👣 GEN 60 breeding
-   └> took: 0:00:00.206055
+   └> took: 0:00:00.462795
 🕹 GEN 60 simulation
-   └> took: 0:00:00.011431
+   └> took: 0:00:00.024002
 🏁 GEN 60 finished
    └> score: 1001
 👣 GEN 61 breeding
-   └> took: 0:00:00.118031
+   └> took: 0:00:00.456839
 🕹 GEN 61 simulation
-   └> took: 0:00:00.011309
+   └> took: 0:00:00.021179
 🏁 GEN 61 finished
    └> score: 1001
 👣 GEN 62 breeding
-   └> took: 0:00:00.214543
+   └> took: 0:00:00.483220
 🕹 GEN 62 simulation
-   └> took: 0:00:00.011389
+   └> took: 0:00:00.021897
 🏁 GEN 62 finished
    └> score: 1001
 👣 GEN 63 breeding
-   └> took: 0:00:00.210597
+   └> took: 0:00:00.467974
 🕹 GEN 63 simulation
-   └> took: 0:00:00.011861
+   └> took: 0:00:00.022768
 🏁 GEN 63 finished
    └> score: 1001
 👣 GEN 64 breeding
-   └> took: 0:00:00.216282
+   └> took: 0:00:00.462447
 🕹 GEN 64 simulation
-   └> took: 0:00:00.011225
+   └> took: 0:00:00.026440
 🏁 GEN 64 finished
    └> score: 1001
 👣 GEN 65 breeding
-   └> took: 0:00:00.113541
+   └> took: 0:00:00.436817
 🕹 GEN 65 simulation
-   └> took: 0:00:00.011452
+   └> took: 0:00:00.020661
 🏁 GEN 65 finished
    └> score: 1001
 👣 GEN 66 breeding
-   └> took: 0:00:00.206220
+   └> took: 0:00:00.449380
 🕹 GEN 66 simulation
-   └> took: 0:00:00.011577
+   └> took: 0:00:00.022386
 🏁 GEN 66 finished
    └> score: 1001
 👣 GEN 67 breeding
-   └> took: 0:00:00.205047
+   └> took: 0:00:00.448923
 🕹 GEN 67 simulation
-   └> took: 0:00:00.011159
+   └> took: 0:00:00.021298
 🏁 GEN 67 finished
    └> score: 1001
 👣 GEN 68 breeding
-   └> took: 0:00:00.200289
+   └> took: 0:00:00.462274
 🕹 GEN 68 simulation
-   └> took: 0:00:00.011489
+   └> took: 0:00:00.023265
 🏁 GEN 68 finished
    └> score: 1001
 👣 GEN 69 breeding
-   └> took: 0:00:00.203943
+   └> took: 0:00:00.454693
 🕹 GEN 69 simulation
-   └> took: 0:00:00.011722
+   └> took: 0:00:00.020551
 🏁 GEN 69 finished
    └> score: 1001
 👣 GEN 70 breeding
-   └> took: 0:00:00.214926
+   └> took: 0:00:00.437833
 🕹 GEN 70 simulation
-   └> took: 0:00:00.012057
+   └> took: 0:00:00.021755
 🏁 GEN 70 finished
    └> score: 1001
 👣 GEN 71 breeding
-   └> took: 0:00:00.208019
+   └> took: 0:00:00.455486
 🕹 GEN 71 simulation
-   └> took: 0:00:00.011392
+   └> took: 0:00:00.021433
 🏁 GEN 71 finished
    └> score: 1001
 👣 GEN 72 breeding
-   └> took: 0:00:00.119244
+   └> took: 0:00:00.458257
 🕹 GEN 72 simulation
-   └> took: 0:00:00.012538
+   └> took: 0:00:00.022004
 🏁 GEN 72 finished
    └> score: 1001
 👣 GEN 73 breeding
-   └> took: 0:00:00.226840
+   └> took: 0:00:00.474271
 🕹 GEN 73 simulation
-   └> took: 0:00:00.011403
+   └> took: 0:00:00.021591
 🏁 GEN 73 finished
    └> score: 1001
 👣 GEN 74 breeding
-   └> took: 0:00:00.236584
+   └> took: 0:00:00.460228
 🕹 GEN 74 simulation
-   └> took: 0:00:00.012632
+   └> took: 0:00:00.021909
 🏁 GEN 74 finished
    └> score: 1001
 👣 GEN 75 breeding
-   └> took: 0:00:00.223753
+   └> took: 0:00:00.260827
 🕹 GEN 75 simulation
-   └> took: 0:00:00.011478
+   └> took: 0:00:00.024162
 🏁 GEN 75 finished
    └> score: 1001
 👣 GEN 76 breeding
-   └> took: 0:00:00.208429
+   └> took: 0:00:00.434476
 🕹 GEN 76 simulation
-   └> took: 0:00:00.011545
+   └> took: 0:00:00.023919
 🏁 GEN 76 finished
    └> score: 1001
 👣 GEN 77 breeding
-   └> took: 0:00:00.225007
+   └> took: 0:00:00.460148
 🕹 GEN 77 simulation
-   └> took: 0:00:00.012153
+   └> took: 0:00:00.023668
 🏁 GEN 77 finished
    └> score: 1001
 👣 GEN 78 breeding
-   └> took: 0:00:00.211821
+   └> took: 0:00:00.482729
 🕹 GEN 78 simulation
-   └> took: 0:00:00.011674
+   └> took: 0:00:00.023462
 🏁 GEN 78 finished
    └> score: 1001
 👣 GEN 79 breeding
-   └> took: 0:00:00.213045
+   └> took: 0:00:00.464788
 🕹 GEN 79 simulation
-   └> took: 0:00:00.011003
+   └> took: 0:00:00.022413
 🏁 GEN 79 finished
    └> score: 1001
 👣 GEN 80 breeding
-   └> took: 0:00:00.125474
+   └> took: 0:00:00.473785
 🕹 GEN 80 simulation
-   └> took: 0:00:00.012088
+   └> took: 0:00:00.022212
 🏁 GEN 80 finished
    └> score: 1001
 👣 GEN 81 breeding
-   └> took: 0:00:00.211175
+   └> took: 0:00:00.459736
 🕹 GEN 81 simulation
-   └> took: 0:00:00.011701
+   └> took: 0:00:00.021522
 🏁 GEN 81 finished
    └> score: 1001
 👣 GEN 82 breeding
-   └> took: 0:00:00.199832
+   └> took: 0:00:00.471571
 🕹 GEN 82 simulation
-   └> took: 0:00:00.011983
+   └> took: 0:00:00.020804
 🏁 GEN 82 finished
    └> score: 1001
 👣 GEN 83 breeding
-   └> took: 0:00:00.214360
+   └> took: 0:00:00.476954
 🕹 GEN 83 simulation
-   └> took: 0:00:00.011999
+   └> took: 0:00:00.023389
 🏁 GEN 83 finished
    └> score: 1001
 👣 GEN 84 breeding
-   └> took: 0:00:00.223844
+   └> took: 0:00:00.455315
 🕹 GEN 84 simulation
-   └> took: 0:00:00.013453
+   └> took: 0:00:00.022051
 🏁 GEN 84 finished
    └> score: 1001
 👣 GEN 85 breeding
-   └> took: 0:00:00.215348
+   └> took: 0:00:00.438538
 🕹 GEN 85 simulation
-   └> took: 0:00:00.012019
+   └> took: 0:00:00.020805
 🏁 GEN 85 finished
    └> score: 1001
 👣 GEN 86 breeding
-   └> took: 0:00:00.211404
+   └> took: 0:00:00.278017
 🕹 GEN 86 simulation
-   └> took: 0:00:00.011960
+   └> took: 0:00:00.022372
 🏁 GEN 86 finished
    └> score: 1001
 👣 GEN 87 breeding
-   └> took: 0:00:00.223243
+   └> took: 0:00:00.416812
 🕹 GEN 87 simulation
-   └> took: 0:00:00.011908
+   └> took: 0:00:00.020603
 🏁 GEN 87 finished
    └> score: 1001
 👣 GEN 88 breeding
-   └> took: 0:00:00.218901
+   └> took: 0:00:00.460470
 🕹 GEN 88 simulation
-   └> took: 0:00:00.012165
+   └> took: 0:00:00.020581
 🏁 GEN 88 finished
    └> score: 1001
 👣 GEN 89 breeding
-   └> took: 0:00:00.209291
+   └> took: 0:00:00.286801
 🕹 GEN 89 simulation
-   └> took: 0:00:00.010784
+   └> took: 0:00:00.024854
 🏁 GEN 89 finished
    └> score: 1001
 👣 GEN 90 breeding
-   └> took: 0:00:00.137697
+   └> took: 0:00:00.409693
 🕹 GEN 90 simulation
-   └> took: 0:00:00.011749
+   └> took: 0:00:00.023285
 🏁 GEN 90 finished
    └> score: 1001
 👣 GEN 91 breeding
-   └> took: 0:00:00.226937
+   └> took: 0:00:00.471051
 🕹 GEN 91 simulation
-   └> took: 0:00:00.012812
+   └> took: 0:00:00.021006
 🏁 GEN 91 finished
    └> score: 1001
 👣 GEN 92 breeding
-   └> took: 0:00:00.231200
+   └> took: 0:00:00.458341
 🕹 GEN 92 simulation
-   └> took: 0:00:00.011610
+   └> took: 0:00:00.021117
 🏁 GEN 92 finished
    └> score: 1001
 👣 GEN 93 breeding
-   └> took: 0:00:00.118049
+   └> took: 0:00:00.472860
 🕹 GEN 93 simulation
-   └> took: 0:00:00.011653
+   └> took: 0:00:00.024032
 🏁 GEN 93 finished
    └> score: 1001
 👣 GEN 94 breeding
-   └> took: 0:00:00.214264
+   └> took: 0:00:00.494196
 🕹 GEN 94 simulation
-   └> took: 0:00:00.012343
+   └> took: 0:00:00.021122
 🏁 GEN 94 finished
    └> score: 1001
 👣 GEN 95 breeding
-   └> took: 0:00:00.208737
+   └> took: 0:00:00.458994
 🕹 GEN 95 simulation
-   └> took: 0:00:00.011333
+   └> took: 0:00:00.024380
 🏁 GEN 95 finished
    └> score: 1001
 👣 GEN 96 breeding
-   └> took: 0:00:00.220537
+   └> took: 0:00:00.453917
 🕹 GEN 96 simulation
-   └> took: 0:00:00.012366
+   └> took: 0:00:00.020304
 🏁 GEN 96 finished
    └> score: 1001
 👣 GEN 97 breeding
-   └> took: 0:00:00.224040
+   └> took: 0:00:00.462840
 🕹 GEN 97 simulation
-   └> took: 0:00:00.011431
+   └> took: 0:00:00.020009
 🏁 GEN 97 finished
    └> score: 1001
 👣 GEN 98 breeding
-   └> took: 0:00:00.208324
+   └> took: 0:00:00.455911
 🕹 GEN 98 simulation
-   └> took: 0:00:00.013262
+   └> took: 0:00:00.020506
 🏁 GEN 98 finished
    └> score: 1001
 👣 GEN 99 breeding
-   └> took: 0:00:00.124451
+   └> took: 0:00:00.477082
 🕹 GEN 99 simulation
-   └> took: 0:00:00.011395
+   └> took: 0:00:00.020632
 🏁 GEN 99 finished
    └> score: 1001
 👣 GEN 100 breeding
-   └> took: 0:00:00.209073
+   └> took: 0:00:00.455038
 🕹 GEN 100 simulation
-   └> took: 0:00:00.011138
+   └> took: 0:00:00.025057
 🏁 GEN 100 finished
    └> score: 1001
 👣 GEN 101 breeding
-   └> took: 0:00:00.204009
+   └> took: 0:00:00.445125
 🕹 GEN 101 simulation
-   └> took: 0:00:00.011488
+   └> took: 0:00:00.022954
 🏁 GEN 101 finished
    └> score: 1001
 👣 GEN 102 breeding
-   └> took: 0:00:00.207456
+   └> took: 0:00:00.264796
 🕹 GEN 102 simulation
-   └> took: 0:00:00.011145
+   └> took: 0:00:00.021922
 🏁 GEN 102 finished
    └> score: 1001
 👣 GEN 103 breeding
-   └> took: 0:00:00.233258
+   └> took: 0:00:00.425697
 🕹 GEN 103 simulation
-   └> took: 0:00:00.011512
+   └> took: 0:00:00.021553
 🏁 GEN 103 finished
    └> score: 1001
 👣 GEN 104 breeding
-   └> took: 0:00:00.113471
+   └> took: 0:00:00.267057
 🕹 GEN 104 simulation
-   └> took: 0:00:00.011294
+   └> took: 0:00:00.022329
 🏁 GEN 104 finished
    └> score: 1001
 👣 GEN 105 breeding
-   └> took: 0:00:00.210510
+   └> took: 0:00:00.410991
 🕹 GEN 105 simulation
-   └> took: 0:00:00.011694
+   └> took: 0:00:00.021528
 🏁 GEN 105 finished
    └> score: 1001
 👣 GEN 106 breeding
-   └> took: 0:00:00.117471
+   └> took: 0:00:00.435389
 🕹 GEN 106 simulation
-   └> took: 0:00:00.011709
+   └> took: 0:00:00.020811
 🏁 GEN 106 finished
    └> score: 1001
 👣 GEN 107 breeding
-   └> took: 0:00:00.208978
+   └> took: 0:00:00.452872
 🕹 GEN 107 simulation
-   └> took: 0:00:00.011353
+   └> took: 0:00:00.022162
 🏁 GEN 107 finished
    └> score: 1001
 👣 GEN 108 breeding
-   └> took: 0:00:00.209498
+   └> took: 0:00:00.445988
 🕹 GEN 108 simulation
-   └> took: 0:00:00.011402
+   └> took: 0:00:00.020913
 🏁 GEN 108 finished
    └> score: 1001
 👣 GEN 109 breeding
-   └> took: 0:00:00.208650
+   └> took: 0:00:00.452968
 🕹 GEN 109 simulation
-   └> took: 0:00:00.011118
+   └> took: 0:00:00.021493
 🏁 GEN 109 finished
    └> score: 1001
 👣 GEN 110 breeding
-   └> took: 0:00:00.211462
+   └> took: 0:00:00.473693
 🕹 GEN 110 simulation
-   └> took: 0:00:00.011612
+   └> took: 0:00:00.023352
 🏁 GEN 110 finished
    └> score: 1001
 👣 GEN 111 breeding
-   └> took: 0:00:00.198575
+   └> took: 0:00:00.453333
 🕹 GEN 111 simulation
-   └> took: 0:00:00.011481
+   └> took: 0:00:00.020762
 🏁 GEN 111 finished
    └> score: 1001
 👣 GEN 112 breeding
-   └> took: 0:00:00.113275
+   └> took: 0:00:00.275989
 🕹 GEN 112 simulation
-   └> took: 0:00:00.011560
+   └> took: 0:00:00.022021
 🏁 GEN 112 finished
    └> score: 1001
 👣 GEN 113 breeding
-   └> took: 0:00:00.208780
+   └> took: 0:00:00.415079
 🕹 GEN 113 simulation
-   └> took: 0:00:00.011731
+   └> took: 0:00:00.020963
 🏁 GEN 113 finished
    └> score: 1001
 👣 GEN 114 breeding
-   └> took: 0:00:00.205819
+   └> took: 0:00:00.438846
 🕹 GEN 114 simulation
-   └> took: 0:00:00.011723
+   └> took: 0:00:00.020814
 🏁 GEN 114 finished
    └> score: 1001
 👣 GEN 115 breeding
-   └> took: 0:00:00.210357
+   └> took: 0:00:00.254949
 🕹 GEN 115 simulation
-   └> took: 0:00:00.011617
+   └> took: 0:00:00.025002
 🏁 GEN 115 finished
    └> score: 1001
 👣 GEN 116 breeding
-   └> took: 0:00:00.126967
+   └> took: 0:00:00.435106
 🕹 GEN 116 simulation
-   └> took: 0:00:00.011627
+   └> took: 0:00:00.020445
 🏁 GEN 116 finished
    └> score: 1001
 👣 GEN 117 breeding
-   └> took: 0:00:00.208372
+   └> took: 0:00:00.431439
 🕹 GEN 117 simulation
-   └> took: 0:00:00.011944
+   └> took: 0:00:00.020727
 🏁 GEN 117 finished
    └> score: 1001
 👣 GEN 118 breeding
-   └> took: 0:00:00.212619
+   └> took: 0:00:00.271460
 🕹 GEN 118 simulation
-   └> took: 0:00:00.011055
+   └> took: 0:00:00.023110
 🏁 GEN 118 finished
    └> score: 1001
 👣 GEN 119 breeding
-   └> took: 0:00:00.206999
+   └> took: 0:00:00.227234
 🕹 GEN 119 simulation
-   └> took: 0:00:00.011877
+   └> took: 0:00:00.022003
 🏁 GEN 119 finished
    └> score: 1001
 👣 GEN 120 breeding
-   └> took: 0:00:00.120785
+   └> took: 0:00:00.408559
 🕹 GEN 120 simulation
-   └> took: 0:00:00.011969
+   └> took: 0:00:00.020431
 🏁 GEN 120 finished
    └> score: 1001
 👣 GEN 121 breeding
-   └> took: 0:00:00.206404
+   └> took: 0:00:00.452586
 🕹 GEN 121 simulation
-   └> took: 0:00:00.011562
+   └> took: 0:00:00.022121
 🏁 GEN 121 finished
    └> score: 1001
 👣 GEN 122 breeding
-   └> took: 0:00:00.124339
+   └> took: 0:00:00.448434
 🕹 GEN 122 simulation
-   └> took: 0:00:00.012893
+   └> took: 0:00:00.023844
 🏁 GEN 122 finished
    └> score: 1001
 👣 GEN 123 breeding
-   └> took: 0:00:00.236624
+   └> took: 0:00:00.441631
 🕹 GEN 123 simulation
-   └> took: 0:00:00.011735
+   └> took: 0:00:00.020987
 🏁 GEN 123 finished
    └> score: 1001
 👣 GEN 124 breeding
-   └> took: 0:00:00.207808
+   └> took: 0:00:00.433726
 🕹 GEN 124 simulation
-   └> took: 0:00:00.011448
+   └> took: 0:00:00.022570
 🏁 GEN 124 finished
    └> score: 1001
 👣 GEN 125 breeding
-   └> took: 0:00:00.120057
+   └> took: 0:00:00.438353
 🕹 GEN 125 simulation
-   └> took: 0:00:00.011621
+   └> took: 0:00:00.020466
 🏁 GEN 125 finished
    └> score: 1001
 👣 GEN 126 breeding
-   └> took: 0:00:00.121298
+   └> took: 0:00:00.460360
 🕹 GEN 126 simulation
-   └> took: 0:00:00.011378
+   └> took: 0:00:00.020601
 🏁 GEN 126 finished
    └> score: 1001
 👣 GEN 127 breeding
-   └> took: 0:00:00.228964
+   └> took: 0:00:00.473982
 🕹 GEN 127 simulation
-   └> took: 0:00:00.012542
+   └> took: 0:00:00.021506
 🏁 GEN 127 finished
    └> score: 1001
 👣 GEN 128 breeding
-   └> took: 0:00:00.222860
+   └> took: 0:00:00.449636
 🙌 Finished dataset
-   └> took: 0:00:26.788300
+   └> took: 0:00:55.760160
 📄 Printing output
-   └> took: 0:00:00.004760
+   └> took: 0:00:00.002021
 🥇 Final score: 1001
